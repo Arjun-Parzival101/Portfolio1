@@ -116,23 +116,23 @@ contact.addEventListener("mouseover", function() {
 
 /*******************************************/
 
-// const submitButton = document.querySelector(".message");
+const submitButton = document.querySelector(".message");
 
-// submitButton.addEventListener("click", function() {
-//     const input1 = document.querySelector("input");
-//     const input2 = document.querySelector("textarea");
-//     const value1 = input1.getAttribute("value");
-//     const value2 = input2.getAttribute("value");
-//     if ((value1) != 0) {
-//         if ((value2) != 0) {
-//             const flag = true;
-//             if (flag == true) {
-//                 alert("Thanks for submitting your comments!");
-//             }
-//             document.querySelector("form").reset();
-//         }
-//     }
-// });
+submitButton.addEventListener("click", function() {
+    const input1 = document.querySelector("input");
+    const input2 = document.querySelector("textarea");
+    const value1 = input1.getAttribute("value");
+    const value2 = input2.getAttribute("value");
+    if ((value1) != 0) {
+        if ((value2) != 0) {
+            const flag = true;
+            if (flag == true) {
+                alert("Thanks for submitting your comments!");
+            }
+            document.querySelector("form").reset();
+        }
+    }
+});
 
 
 /**************************TYPEWRITER EFFECTS*********************************/
