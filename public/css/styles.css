@@ -35,6 +35,17 @@
     }
 }
 
+.go-top {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: fixed;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #050505;
+    border: solid white;
+    border-radius: 15px;
+}
+
 body {
     background: #000;
 }
