@@ -129,7 +129,7 @@ submitButton.addEventListener("click", function() {
             if (flag == true) {
                 alert("Thanks for submitting your comments!");
             }
-            document.querySelector("form").reset();
+            // document.querySelector("form").reset();
         }
     }
 });
