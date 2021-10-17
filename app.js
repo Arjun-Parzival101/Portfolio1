@@ -16,6 +16,11 @@ app.post("/", function(req, res) {
     console.log(req.body);
 });
 
-app.listen(3000, function() {
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 3000;
+}
+
+app.listen(port, function() {
     console.log("Server working on Port: 3000");
 });
